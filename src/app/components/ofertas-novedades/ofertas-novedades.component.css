@@ -1,0 +1,50 @@
+.title{
+  margin-top: 4%;
+  margin-left: 4%;
+}
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap to the next row */
+  justify-content: space-between; /* Distribute columns evenly in each row */
+  
+}
+
+.column {
+  flex: calc(28.33% - 5px); 
+  padding: 10px;
+
+}
+h1{
+  font-family: 'BlackBones';
+  color: #71310d;
+  font-size: xx-large;
+}
+h2{
+  font-family: 'BlackBones';
+  color: #71310d;
+}
+h3{
+  font-family: 'BlackBones';
+  color: #71310d;
+}
+p{
+  font-family: 'BlackBones';
+  color: #71310d;
+  padding-bottom: 10%;
+
+}
+img{
+  width: 30%;
+  height: 30%;
+  padding: 2%;
+}
+.button-bg{
+  margin: 1%;
+  font-family: 'BlackBones';
+  color: #71310d;
+  font-size: large;
+  border-color: #71310d;
+  border: 2px solid #71310d; /* Replace with your desired border color */
+}

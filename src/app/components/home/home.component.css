@@ -1,0 +1,15 @@
+.banner-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px; 
+  background-size: contain;  
+}
+.buttonDownload{
+  margin-top: 260px;
+  float: left; 
+  position: absolute; 
+  background-color: #EBC78E;
+  font-family: 'BlackBones';
+}
+

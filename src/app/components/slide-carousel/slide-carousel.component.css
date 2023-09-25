@@ -1,0 +1,94 @@
+.carousel-row {
+  position: relative;  width: 100%;
+}
+
+.elements {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow-x:scroll;
+  overflow-y:hidden;
+}
+
+.elements li {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  width: 14rem;
+  flex:0 0 14rem;
+  height: 12rem;
+  text-align: center;
+  border-radius: 100%;
+}
+span{
+  width: 100%;
+  line-height: 14rem;
+  font-size: 2rem;
+  font-family: 'BlackBones';
+  color: #71310d;
+  text-shadow: #ffffff 1px 0 10px;
+  position: sticky;
+}
+.entrantesImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/entrantes.jpg');
+}
+.pastaImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/pasta.jpg');
+}
+.pizzaImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/pizza.jpg');
+}
+.snacksImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/snacks.jpg');
+}
+.platosImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/platos_combinados.jpg');
+}
+.carnesImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/carnes.jpg');
+}
+.pescadoImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/pescado.jpg');
+}
+.polloasadoImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/pollo_asado.jpg');
+}
+.comidamexicanImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/comida_mexicana.jpg');
+}
+.postreImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/postres.jpg');
+}
+.bebidasImg{
+  background-repeat:round;
+  background-image: url('../../../assets/img/bebidas.jpg');
+}
+
+
+/* Estilo para el scrollbar horizontal */
+::-webkit-scrollbar  {
+  background-color: rgb(255, 255, 255); /* Color del track (el fondo del scrollbar) */
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #71310d; /* Color del thumb (el elemento móvil del scrollbar) */
+  border-radius: 20px;
+
+}
+
+
+
+

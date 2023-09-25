@@ -1,0 +1,19 @@
+.navBar{
+  background-color: #71310D;
+}
+.example-spacer{
+  width: 80%;
+}
+
+.row{
+  width: 100%;
+}
+
+span{
+  font-family: 'BlackBones';
+  font-size: xx-large;
+}
+button{
+  font-family: 'BlackBones';
+  font-size: large;
+}

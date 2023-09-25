@@ -1,0 +1,38 @@
+.content{
+
+  position: relative;
+
+}
+.title{
+  margin-left: 4%;
+}
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Distribuir el espacio entre las columnas */
+}
+
+.column {
+  margin-left: 4%;
+  flex: 1; /* Hacer que las columnas tengan el mismo ancho */
+  padding: 1%; 
+}
+h1{
+  font-family: 'BlackBones';
+  color: #71310d;
+  font-size: xx-large;
+}
+img{
+  background-repeat:round;
+  width: 99%;
+  height: 90%;
+}
+.button-bg{
+  margin: 1%;
+  font-family: 'BlackBones';
+  color: #71310d;
+  font-size: large;
+  border-color: #71310d;
+  border: 2px solid #71310d; /* Replace with your desired border color */
+}
