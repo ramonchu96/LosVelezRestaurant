@@ -34,7 +34,7 @@ jobs:
         run: npm i
       # Build app for production
       - name: Build app bundle
-        run: npm run build
+        run: npm run build:prod
       # Route file renaming
       - name: Rename index for routing
         run: mv dist/LosVelezRestaurant/index.html dist/LosVelezRestaurant/index.html
