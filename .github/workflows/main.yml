@@ -32,12 +32,23 @@ jobs:
       # Install dependencies
       - name: Install deps
         run: npm i
+      # Install angular-cli-page
+      - name: Install deps angular-cli-page
+        run: npm i angular-cli-ghpages --save-dev
       # Build app for production
-      - name: Build app bundle
-        run: npm run build:prod
-      # Route file renaming
-      - name: Rename index for routing
-        run: mv dist/LosVelezRestaurant/index.html dist/LosVelezRestaurant/index.html
+      # - name: Build app bundle
+      #   run: npm run build
+      # Author identity
+      - name: Identity email via git
+        run: git config --global user.email "rasoro96@gmail.com"
+      - name: Identity name via git
+        run: git config --global user.name "https://github.com/ramonchu96"
+      # Run Deploy App
+      - name: Run Deploy App
+        run: npx angular-cli-ghpages --dir=docs --no-silent
+      # # Route file renaming
+      # - name: Rename index for routing
+      #   run: mv dist/LosVelezRestaurant/index.html dist/LosVelezRestaurant/index.html
       # Deploy to Github pages
       - name: Deploy to Pages
         uses: crazy-max/ghaction-github-pages@v4.0.0
